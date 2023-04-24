@@ -1,0 +1,21 @@
+@import url(null.css);
+
+body {
+  margin-top: 50px;
+}
+
+.block {
+  border: 5px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+}
+.blocks__1:hover {
+  transition: 3s 2s;
+  border: 5px solid green;
+}
+.blocks__2:hover {
+  transition-duration: 3s;
+  transition-delay: 2s;
+  border: 5px solid yellow;
+}
